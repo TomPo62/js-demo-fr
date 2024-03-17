@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Demo Javascript 1</title>
+  </head>
+  <header>
+    <h1>Javascript Demo 1</h1>
+    <h2>Hello, World from Javascript</h2>
+    <button id="logBtn">Console.log</button>
+  </header>
+  <body>
+    <div class="welcome-form">
+      <h3>Bonjour, qui es-tu ?</h3>
+      <input type="text" id="userName" placeholder="Entrez votre nom">
+      <h3>Accepter les conditions ?</h3>
+      <select name="choice" id="choiceYesOrNo">
+        <option value="false">Non</option>
+        <option value="true">Oui</option>
+      </select>
+      <button id="submit">Soumettre</button>
+      <p id="welcomeMessage"></p>
+    </div>
+    <div class="clicker-counter">
+      <h3>Compteur de Clic :</h3>
+      <button id="clickMeBtn">Click Me 😄</button>
+      <p>Nombre de clics : <span id="clickCount">0</span></p>
+    </div>
+    <div class="color-changer">
+      <button id="changeColorBtn">
+        Clique pour changer le background de la page ! 🖌️
+      </button>
+    </div>
+ <div class="simple-quiz">
+      <h3>Quel est le meilleur langage de programmation ?</h3>
+      <div>
+        <input type="radio" id="javascript" name="best-lang" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+      </div>
+      <div>
+        <input type="radio" id="python" name="best-lang" value="Python">
+        <label for="python">Python</label>
+      </div>
+      <div>
+        <input type="radio" id="other" name="best-lang" value="Other">
+        <label for="other">Autre</label>
+      </div>
+      <button id="submitQuiz">Soumettre</button>
+      <p id="quizResult"></p>
+    </div>
+    <div class="message-form">
+      <h3>Simulation d'envoi de message</h3>
+      <h3>Laissez un message :</h3>
+      <input type="text" id="userMessage" placeholder="Votre message ici" />
+      <button id="sendMessageBtn">Envoyer</button>
+    </div>
+
+<div id="hoverText" class="dynamic-text">
+      Survole-moi pour changer ce texte ! 👀
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
