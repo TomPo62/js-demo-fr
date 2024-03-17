@@ -10,6 +10,10 @@ Ce dépôt contient une démonstration simple des capacités de JavaScript inté
 
 ## Fonctionnalités
 
+### Formulaire simple de Bienvenue
+
+Demande le nom de l'utilisateur et son accord pour les conditions fictives, verifie les entrées et les valides, sinon devoile les erreurs.
+
 ### Compteur de Clics
 
 Un bouton qui, une fois cliqué, incrémente un compteur. Cela démontre la manipulation simple des événements et du DOM.
@@ -41,4 +45,3 @@ Pour voir ces démonstrations en action, clonez le dépôt, ouvrez `index.html` 
 - [JavaScript ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 Ce projet est une introduction aux possibilités qu'offre JavaScript dans le développement web et vise à fournir une base pour des explorations plus approfondies de la programmation front-end.
-
