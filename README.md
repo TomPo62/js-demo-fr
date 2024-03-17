@@ -8,6 +8,10 @@ Ce dépôt contient une démonstration simple des capacités de JavaScript inté
 - `style.css` : Les styles CSS pour personnaliser l'apparence de la page.
 - `script.js` : Le script JavaScript qui ajoute des fonctionnalités interactives.
 
+## Demo
+
+Vous pouvez acceder a la demo directement ici [Demo JS 1](https://tompo62.github.io/js-demo-fr/)
+
 ## Fonctionnalités
 
 ### Formulaire simple de Bienvenue
